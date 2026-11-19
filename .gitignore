@@ -1,0 +1,90 @@
+# ========================================
+# Xilinx Vivado
+# ========================================
+
+# Vivado project files (generated)
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.srcs/sources_1/ip/*/
+
+# Vivado generated files
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.wcfg
+*.vcd
+*.dmp
+*.rpt
+*.xml
+*.html
+*.zip
+*.tar.gz
+
+# Vivado checkpoints and generated netlists
+*.dcp
+*.edf
+*.edif
+*.ngc
+*.ngd
+*.bit
+*.bin
+*.mcs
+*.mmi
+*.ltx
+
+# Vivado temporary files
+.Xil/
+vivado*.backup.jou
+vivado*.backup.log
+webtalk*
+usage_statistics_webtalk.html
+*.tmp
+
+# ========================================
+# Simulation
+# ========================================
+
+# Questa / ModelSim
+transcript
+vsim.wlf
+modelsim.ini
+work/
+questa_lib/
+simlib/
+
+# Vivado Simulator
+xsim.dir/
+*.wdb
+*.vcd
+*.vcd.gz
+
+# ========================================
+# Operating System / IDE
+# ========================================
+
+# Linux
+*~
+.directory
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# ========================================
+# Optional: local configuration
+# ========================================
+
+# Ignore local Vivado preferences
+*.sw?
