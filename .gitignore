@@ -10,6 +10,8 @@
 *.sim/
 *.gen/
 *.srcs/sources_1/ip/*/
+*.srcs/
+*.ipc/
 
 # Vivado generated files
 *.jou
@@ -81,6 +83,12 @@ Desktop.ini
 
 # VS Code
 .vscode/
+
+
+## Python related
+__pycache__/
+*.py[cod]
+.venv/
 
 # ========================================
 # Optional: local configuration
